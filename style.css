@@ -1,0 +1,92 @@
+.Nodus{
+    color: #ffffff;
+     font-size: 1.2em;
+     font-family: 'Press Start 2P', cursive;
+}
+.Lego{
+    color: #ffffff;
+     font-size: 1.2em;
+     font-family: 'Press Start 2P', cursive;
+}
+.cabecalho{
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+ 
+ 
+}
+a{
+    color: #4eeb5b;
+     font-size: 1.2em;
+}
+h1.titulo{
+    color: #ffffff;
+    font-size: 2em;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    text-shadow: 2px 2px 0 #000;
+}
+.NOLAW{
+    color: #ffffff;
+    font-size: 1.2em;
+    font-family: 'Press Start 2P', cursive;
+}
+.PBG{
+    color: #ffffff;
+    font-size: 1.2em;
+    font-family: 'Press Start 2P', cursive;
+}
+.Zoopunk{
+    color: #ffffff;
+    font-size: 1.2em;
+    font-family: 'Press Start 2P', cursive;
+}
+.LikeOrDie{
+    color: #ffffff;
+    font-size: 1.2em;
+    font-family: 'Press Start 2P', cursive;
+}
+.Taren{
+    color: #ffffff;
+    font-size: 1.2em;
+    font-family: 'Press Start 2P', cursive;
+}
+
+main article {
+    display: grid;
+    grid-template-columns: 400px 28%;
+    
+}
+
+main article h1 {
+    grid-column: 2;
+}
+
+main article iframe {
+    grid-column: 2;
+}
+
+main article p {
+    grid-column: 3;
+    width: fit-content;
+    max-width: 650px;
+    margin: 0;
+    padding: 10px;
+    background-color: #000000;
+    line-height: 1.6;
+}
+
+footer {
+    padding: 30px 20px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #30cf3d8c;
+}
+
+footer p {
+    margin: 10px 0 0;
+}
+
+
+
+
