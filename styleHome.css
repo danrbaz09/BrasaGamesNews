@@ -3,6 +3,7 @@
     margin-top: -25px;
     font-size: 1.2em;
     font-family: 'Press Start 2P', cursive;
+    text-align: center;
 }
 
 .NewsGames h1 {
@@ -70,5 +71,63 @@ footer p {
 
 footer a {
     color: #4eeb5b;
+}
+
+@media (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    body > div:first-child {
+        padding: 25px 16px !important;
+    }
+
+    body > div:first-child img {
+        display: block;
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .cabecalhoHome {
+        margin-top: 0;
+        padding: 0 16px;
+    }
+
+    .NewsGames h1 {
+        margin-top: 32px;
+    }
+
+    .Noticias {
+        margin-left: 6px;
+        margin-right: 6px;
+        margin-top: 24px;
+    }
+
+    .Noticias h1 {
+        font-size: 1.2em;
+        line-height: 1.45;
+    }
+
+    .Noticias img {
+        width: 100%;
+        max-width: 420px;
+        height: auto;
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .Noticias p {
+        line-height: 1.55;
+    }
+
+    .MaisNoticias h1 {
+        margin-top: 44px;
+        margin-left: 16px;
+        margin-right: 16px;
+        line-height: 1.45;
+    }
 }
 
